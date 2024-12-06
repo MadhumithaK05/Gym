@@ -9,6 +9,7 @@ public class Gym {
         name=name.toLowerCase();
         int initialDays = membershipType.equalsIgnoreCase("Monthly") ? 30 : 365;
         members.put(name.toLowerCase(), new Member(name, age, membershipType, initialDays));
+        System.out.println("Hey This is Madhumitha");
     }
 
     // Removes a member from the gym
